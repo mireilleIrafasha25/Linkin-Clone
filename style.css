@@ -8,7 +8,7 @@
 
 /* Header */
 .header {
-    background-color: #283e4a;
+    background-color: #333;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -16,20 +16,13 @@
     padding: 10px 20px;
 }
 
-.header .logo img {
-    height: 40px;
-}
 
-.header .search-bar input {
-    width: 300px;
-    padding: 8px;
-    border-radius: 5px;
-    border: none;
-}
+
 
 .header .nav-menu ul {
     display: flex;
     gap: 20px;
+    list-style: none;
 }
 
 .header .nav-menu a {
@@ -55,7 +48,7 @@
 /* Sidebar Left */
 .sidebar-left {
     width: 25%;
-    background-color: #283e4a;
+    background-color: #333;
     border-radius: 8px;
     padding: 15px;
 }
@@ -64,10 +57,46 @@
     width: 60px;
     border-radius: 50%;
 }
+.main-content .sidebar-left .profile-summary .backprofile{
+    width: 100px;
+}
 
 .sidebar-left h3 {
+    color: white;
     font-size: 18px;
     margin-top: 10px;
+}
+.sidebar-left p{
+    color: #bfbaba;
+}
+.profile-view{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #eef3f8;
+    margin-top: 25px;
+}
+.profile-vie1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #eef3f8;
+}
+
+.my-items{
+    margin-top: 40px;
+}
+.my-items ul{
+    list-style: none;
+}
+.my-items ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+}
+.my-items ul li a i{
+    margin-right: 10px;
 }
 
 .sidebar-left a {
@@ -79,7 +108,7 @@
 /* Feed Section */
 .feed {
     width: 50%;
-    background-color: #283e4a;
+    background-color: #333;
     border-radius: 8px;
     padding: 15px;
 }
@@ -90,7 +119,7 @@
     border-bottom: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #283e4a;
+    background-color:#333;
     border-radius: 100px;
     margin-left: 20px;
     color: #eef3f8;
@@ -104,7 +133,7 @@
 }
 .post-box{
     border: none;
-    background-color: #283e4a;
+    background-color: #333;
 }
 .post-options button {
     background-color: #eef3f8;
@@ -140,7 +169,7 @@
 /* Sidebar Right */
 .sidebar-right {
     width: 25%;
-    background-color: #283e4a;
+    background-color: #333;
     border-radius: 8px;
     padding: 15px;
 }
@@ -185,4 +214,117 @@ body{
     height: 100vh;
     font-family: Arial, sans-serif;
     background-color: black;
+}
+.container{
+    display: flex;
+}
+.logo{
+    margin-right: 10px;
+    
+}
+.nav-menu ul li a
+{
+    display: inline-block;
+}
+#home{
+    margin-left: 20px;
+}
+
+
+.header {
+    background-color: #242424; /* Dark background */
+    color: white; /* White text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    width: auto; /* Adjust logo size */
+    height: 25px;
+    border-radius:5px ;
+}
+
+.search-bar input {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    width: 200px;
+    height: 25px; /* Adjust width as needed */
+}
+
+.search-bar input::placeholder {
+    color: #ccc;
+}
+
+.nav-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu nav ul li {
+    margin: 0 20px;
+    text-align: center;
+}
+.nav-menu nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-menu nav ul li a i {
+    font-size: 20px; /* Adjust icon size */
+    margin-bottom: 5px;
+}
+
+.nav-menu nav ul li:hover a {
+    color: #0073b1; /* LinkedIn's primary color */
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+}
+
+.profile img {
+    width: 30px; /* Adjust profile picture size */
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 0px;
+}
+
+.profile:hover {
+    cursor: pointer;
+    color: #0073b1; /* Highlight on hover */
+}
+
+.post_pic{
+    display: flex;
+}
+.anotherpost-pic{
+display: inline;
+width:25%;
 }

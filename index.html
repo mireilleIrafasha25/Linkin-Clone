@@ -16,17 +16,22 @@
             <div class="search-bar">
                 <input type="text" placeholder="Search">
             </div>
-            <nav class="nav-menu">
+            <div class="nav-menu">
+            <nav>
                 <ul>
-                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="#"><i class="fas fa-user-friends"></i> My Network</a></li>
+                    <li id="home"><a href="#" class="home"><i class="fas fa-home"></i> Home</a></li>
+                    <li id="network"><a href="#" id="network"><i class="fas fa-user-friends"></i><span> My Network</span></a></li>
                     <li><a href="#"><i class="fas fa-briefcase"></i> Jobs</a></li>
                     <li><a href="#"><i class="fas fa-envelope"></i> Messaging</a></li>
                     <li><a href="#"><i class="fas fa-bell"></i> Notifications</a></li>
                 </ul>
+                
             </nav>
+            </div>
             <div class="profile">
                 <img src="assets/st photo.jpg" alt="Profile Picture">
+                <div class="me">
+                    Me</div>
             </div>
         </div>
     </header>
@@ -34,16 +39,22 @@
     <main class="main-content">
         <aside class="sidebar-left">
             <div class="profile-summary">
-                <img src="assets/st photo.jpg" alt="Profile Picture">
+                <div><img src="assets/st photo.jpg" alt="Profile Picture"></div>
+                <div>
                 <h3>Marie Mireille Irafasha</h3>
-                <p>Certified Backend developer</p>
-                <a href="#">Who's viewed your profile</a>
-                <a href="#">Access exclusive tools & insights</a>
+                <p>Backend developer|Computer Science</p>
+                <p style="margin-top: 10px;">Kigali,Kigali City</p>
+                <div class="profile-view"><div>Who's viewed your profile</div> <div style="color: blue;">65</div></div>
+                <div class="profile-vie1"><div>Impression of your post</div> <div style="color: blue;">908</div></div>
+                </div>
             </div>
             <div class="my-items">
-                <h4>My Items</h4>
-                <a href="#">Khills Team</a>
-                <a href="#">Page notifications</a>
+             <ul>
+                <li><a href="#"><i class="fas fa-bookmark"></i>My Items</a></li>
+                <li><a href="#"><i class="fa fa-user-friends"></i>Group</a></li>
+                <li><a href="#"><i class="fa fa-newspaper"></i>Newsletters</a></li>
+                <li><a href="#"><i class="fa fa-calendar"></i>Events</a></li>
+             </ul>
             </div>
         </aside>
 
@@ -74,7 +85,19 @@
                 <p class="post-content">
                     Last week, I had the pleasure to represent BAG at the 2023 Forbes 30 under 30 Africa Summit in Gaborone, Botswana.
                 </p>
-                <img src="assets/student1.jpg" alt="Post Image">
+                <div class="post_pic">
+                <div><img src="assets/student1.jpg" alt="Post Image" style="width: 80%;"></div>
+                <div class="anotherpost_pic">
+                <div class="another1and2">
+                <div> <img src="assets/st photo.jpg" alt="User Picture"> </div>
+                <div> <img src="assets/st photo.jpg" alt="User Picture"> </div>
+                </div>
+                <div class="another3and4">
+                <div> <img src="assets/st photo.jpg" alt="User Picture"> </div>
+                <div> <img src="assets/st photo.jpg" alt="User Picture"> </div>
+                </div>
+                </div>
+            </div>
                 <div class="post-footer">
                     <button><i class="fas fa-thumbs-up"></i> Like</button>
                     <button><i class="fas fa-comment"></i> Comment</button>
