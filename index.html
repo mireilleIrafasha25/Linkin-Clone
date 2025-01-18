@@ -62,7 +62,7 @@
             <div class="post-box">
                 <div class="addpost">
                     <div><img src="assets/st photo.jpg" alt="post-profile" class="post-profile"></div>
-                    <div><textarea  placeholder="Start a post..."></textarea></div>
+                    <div><input type="text"  placeholder="Start a post..." class="post-type"></div>
                     </div>
                 <div class="post-options">
                     <button><i class="fas fa-image"></i> Photo</button>
@@ -85,19 +85,30 @@
                 <p class="post-content">
                     Last week, I had the pleasure to represent BAG at the 2023 Forbes 30 under 30 Africa Summit in Gaborone, Botswana.
                 </p>
-                <div class="post_pic">
-                <div><img src="assets/student1.jpg" alt="Post Image" style="width: 80%;"></div>
-                <div class="anotherpost_pic">
-                <div class="another1and2">
-                <div> <img src="assets/st photo.jpg" alt="User Picture"> </div>
-                <div> <img src="assets/st photo.jpg" alt="User Picture"> </div>
-                </div>
-                <div class="another3and4">
-                <div> <img src="assets/st photo.jpg" alt="User Picture"> </div>
-                <div> <img src="assets/st photo.jpg" alt="User Picture"> </div>
-                </div>
-                </div>
-            </div>
+                <div class="post-section">
+                    <!-- Large Image -->
+                    <div class="large-post">
+                      <img src="assets/student1.jpg" alt="Large Post" />
+                    </div>
+                  
+                    <!-- Smaller Images -->
+                    <div class="small-posts">
+                      <div class="small-post">
+                        <img src="assets/1(40).jpg" alt="Small Post 1" />
+                      </div>
+                      <div class="small-post">
+                        <img src="assets/course ener.png" alt="Small Post 2" />
+                      </div>
+                      <div class="small-post">
+                        <img src="assets/github field day kigali24.jpg" alt="Small Post 3" />
+                      </div>
+                      <div class="small-post">
+                        <img src="assets/AFR_5965.jpg" alt="Small Post 4" />
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
                 <div class="post-footer">
                     <button><i class="fas fa-thumbs-up"></i> Like</button>
                     <button><i class="fas fa-comment"></i> Comment</button>
@@ -108,12 +119,52 @@
         </section>
 
         <aside class="sidebar-right">
-            <div class="add-to-your-feed">
-                <h4>Add to your feed</h4>
-                <a href="#">AEM Community</a>
-                <a href="#">Alain Ngabo Kamanda</a>
-                <a href="#">Patrick Rutaguma</a>
-            </div>
+            <div class="sidebar">
+                <div class="section">
+                  <h3>Add to your feed</h3>
+                  <div class="recommendation">
+                    <div class="profile-pic">
+                      <img src="https://via.placeholder.com/40" alt="AEM Community Logo">
+                    </div>
+                    <div class="profile-info">
+                      <h4>AEM Community</h4>
+                      <p>Company · Information Technology and Services</p>
+                    </div>
+                    <button class="follow-btn">+ Follow</button>
+                  </div>
+                  <div class="recommendation">
+                    <div class="profile-pic">
+                      <img src="https://via.placeholder.com/40" alt="Alain Ngabo Kamanda">
+                    </div>
+                    <div class="profile-info">
+                      <h4>Alain Ngabo Kamanda</h4>
+                      <p>Technical Engineer at Tek Experts Rwanda</p>
+                    </div>
+                    <button class="follow-btn">+ Follow</button>
+                  </div>
+                  <div class="recommendation">
+                    <div class="profile-pic">
+                      <img src="https://via.placeholder.com/40" alt="Ngabe Rutagarama">
+                    </div>
+                    <div class="profile-info">
+                      <h4>Ngabe Rutagarama</h4>
+                      <p>Head of IT and Digital Innovation at Development Bank of Rwanda (BRD)</p>
+                    </div>
+                    <button class="follow-btn">+ Follow</button>
+                  </div>
+                  <a href="#" class="view-all">View all recommendations →</a>
+                </div>
+                <div class="section ad-section">
+                  <p>See who's hiring on LinkedIn.</p>
+                  <img src="https://via.placeholder.com/300x150" alt="LinkedIn Ad">
+                </div>
+                <footer>
+                  <p>
+                    About · Accessibility · Help Center · Privacy & Terms · Advertising · Business Services
+                  </p>
+                </footer>
+              </div>
+              
         </aside>
     </main>
 </body>
