@@ -378,16 +378,10 @@ width:25%;
     display: block;
   }
 
-  body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f3f2ef; /* Light gray background */
-}
 
 .sidebar {
   width: 320px; /* Set the width of the sidebar */
-  padding: 16px; /* Add padding around the content */
+  padding: 5px; /* Add padding around the content */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
   border-radius: 8px; /* Rounded corners */
 }
